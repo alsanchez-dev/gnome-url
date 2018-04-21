@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Byte Size</title>
+    <link rel='stylesheet' type='text/css' href='cssfiles/mycss.css' />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+
+    <!-- Web app html -->
+    <!-- responsiveness with bootstrap -->
+    <div class="container-fluid">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+         <main id='main'>
+        <div class='container2'>
+
+            <br>
+
+            <form id='form' autocomplete="off">
+                <input type="text" class="form-control" placeholder="enter url here" id="input" value="">
+                <button id="shorten">Shorten</button>
+                <button id="expand">Expand</button>
+            </form>
+
+            <div id="responseField">
+
+             <input type="text" class="form-control" placeholder="→ The new url is printed here ←" id="output" value="" disabled>
+
+            <input type="text"  id="copymessage" value="" disabled>
+
+
+         </div>
+
+               <button id="copyurl" >Copy URL</button>
+
+        </div>
+
+
+    </div>
+
+</div>
+<div class="col-sm-4"></div>
+     <!-- ends Web app html -->
+
+<!--    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script> -->
+    <script src='apilogic/myjs.js'></script>
+</body>
+</html>
