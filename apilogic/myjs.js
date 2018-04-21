@@ -1,5 +1,5 @@
 // Include data for accessing Google APIs
-// This web app has been written by Albert Sanchez
+// This web app by Albert Sanchez
 
 const apiKey = 'AIzaSyCvZ1J5-mVL9rb_bOajxidWL8sLak2hnOw';
 const url = 'https://www.googleapis.com/urlshortener/v1/url';
